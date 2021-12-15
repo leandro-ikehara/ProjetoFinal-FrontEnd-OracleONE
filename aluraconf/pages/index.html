@@ -14,14 +14,15 @@
     <link rel="stylesheet" href="../css/descricao.css">
     <link rel="stylesheet" href="../css/palestrantes.css">
     <link rel="stylesheet" href="../css/inscricao.css">
+    <link rel="stylesheet" href="../css/rodape.css">
 
     <title>Alura Conf</title>
 </head>
 <header class="cabecalho">
     <nav class="menu-superior">
         <ul>
-            <li class="link-nav"><a href="#">Sobre</a></li>
-            <li class="link-nav"><a href="#">Palestrantes</a></li>
+            <li class="link-nav"><a href="#descricao-evento">Sobre</a></li>
+            <li class="link-nav"><a href="#sessao-palestrantes">Palestrantes</a></li>
         </ul>
     </nav>
     <div class="jumbotron">
@@ -30,13 +31,13 @@
             <h2 class="data-evento">30MAI | RIO</h2></br>
         </section>
         <section class="sessao-inscreva-se">
-            <a href="#" class="inscreva-se">Inscreva-se</a>
+            <a href="#formulario" class="inscreva-se">Inscreva-se</a>
         </section>
     </div>
 </header>
 
 <body>
-    <section class="descricao">
+    <section id="descricao-evento" class="descricao">
         <div class="container">
             <h2 class="titulo-descricao">Muito conteúdo: do frontend ao backend</h2>
             <h3 class="data">30 de Maio de 2017 - na Cidade Maravilhosa</h3>
@@ -53,7 +54,7 @@
             </div>
         </div>
     </section>
-    <section class="descricao sessao-palestrantes">
+    <section id="sessao-palestrantes" class="descricao sessao-palestrantes">
         <div class="container">
             <h2 class="titulo-descricao">PALESTRANTES</h2>
             <h3 class="data">Aprenda com palestrantes que são referência na comunidade</h3>
@@ -99,7 +100,7 @@
         </div>
     </section>
 
-    <section class="formulario">
+    <section id="formulario" class="formulario">
         <div class="container">
             <h2 class="titulo-descricao">Seus Dados</h2>
             <form class="inscricao">
@@ -119,5 +120,9 @@
     </section>
 
 </body>
-
+<footer class="rodape">
+    <p class="texto-rodape">Leandro Ikehara 2021 @ Alura | Oracle ONE</p>
+</footer>
+<script src="../js/jquery.js"></script>
+<script src="../js/index.js"></script>
 </html>
