@@ -1,0 +1,14 @@
+.formulario {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.formulario .titulo-descricao {
+    color: salmon;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+
+.inscreva-se {
+    border-style: none;
+}
