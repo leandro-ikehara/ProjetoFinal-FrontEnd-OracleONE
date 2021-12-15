@@ -3,6 +3,40 @@
     background-color: salmon;
 }
 
-.palestrantes {
+.sessao-palestrantes .titulo-descricao {
+    color: whitesmoke;
+    margin-bottom: 16px;
+}
+
+.sessao-palestrantes .data {
+    color: whitesmoke;
+    margin-bottom: 16px;
+}
+
+.sessao-palestrantes .palestrante {
     display: inline-block;
+    background: whitesmoke;
+    margin: 0 16px 32px 0;
+    padding: 18px;
+    border-radius: 5px;
+    width: 220px;
+    vertical-align: top;
+}
+
+.foto-palestrante {
+    border-radius: 50%;
+}
+
+.nome {
+    margin-top: 10px;
+}
+
+.palestrante-bio {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.tema-palestra {
+    margin-top: 10px;
+
 }
