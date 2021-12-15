@@ -1,0 +1,8 @@
+.sessao-palestrantes {
+    padding-top: 20px;
+    background-color: salmon;
+}
+
+.palestrantes {
+    display: inline-block;
+}

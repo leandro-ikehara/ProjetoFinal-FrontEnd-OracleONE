@@ -1,0 +1,70 @@
+.cabecalho {
+    background: url('../img/destaque.jpeg') no-repeat;
+    background-size: cover;
+    padding-top: 32px;
+}
+
+.cabecalho .menu-superior {
+    text-align: center;
+}
+
+.cabecalho .menu-superior .link-nav {
+    display: inline-block;
+    margin: 0 2px 32px 0;
+}
+
+.cabecalho .menu-superior .link-nav a {
+    color: #ffffff;
+    padding: 16px;
+    background: #ffffff1a;
+    border-radius: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color 0.5s;
+}
+
+.cabecalho .menu-superior .link-nav a:hover {
+    background-color: #48A3A6;
+}
+
+.jumbotron {
+    text-align: center;
+    padding: 0 0 30px 0;
+}
+
+.titulo {
+    color: #ffffff;
+    text-shadow: 2px 2px 5px black;
+}
+
+.alura-conf {
+    font-size: 3em;
+}
+
+.data-evento {
+    color: #64FF64;
+    font-size: 2.6em;
+    margin-top: 8px;
+}
+
+.inscreva-se {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 16px;
+    background: #48A3A6;
+    border-radius: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color 0.5s;
+}
+
+.sessao-inscreva-se {
+    margin-top: 10px;
+}
+
+@media (min-width: 650px) {
+    .cabecalho .jumbotron {
+        font-size: 28px;
+    }
+}

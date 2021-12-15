@@ -1,0 +1,21 @@
+.descricao {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.titulo-descricao {
+    font-size: 40px;
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+.data {
+    font-size: 25px;
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+.texto-descricao {
+    font-size: 18px;
+    line-height: 30px;
+}
